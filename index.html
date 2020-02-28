@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>HTML wireframe</title>
+    <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
@@ -10,39 +10,77 @@
 </head>
 <body>
     <nav role="navigation">
-      <a href="#">About</a>
-      <a href="#">Portfolio</a>
-      <a href="#">Contact</a>
+      <a href="#header">About</a>
+      <a href="#quiz-project">Portfolio</a>
+      <a href="#skills">Skills</a>
+      <a href="#contactForm">Contact</a>
       <div class="contact">
         <div class="social-icons">
-          <i class="fab fa-facebook-square"></i>
-          <i class="fab fa-linkedin"></i>
-          <i class="fab fa-github-square"></i>
+          <a href="https://www.facebook.com/kurbonov-muhiddin" target="_blank"><i class="fab fa-facebook-square"></i></a>
+          <a href="https://www.linkedin.com/in/muhiddin-kurbonov/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/muhiddinsgithub" target="_blank"><i class="fab fa-github-square"></i></a>
         </div>
         <div>Call: (415) 438-0391</div>
         <div>E-mail: muhiddindc@gmail.com</div>
       </div>
     </nav>
     <main role="main">
-        <header role="banner">
+        <header role="banner" id="header">
           <img src="./images/profile-pic.jpg" id="profile-pic" alt="Profile picture of me">
             <h1><div>Hi, I'm Muhiddin </div>
-              <div>I am a <code><</code>Full Stack<code>></code> Web Developer</div>
+              <div> <span id="fullstack"><code><</code>Full Stack<code>></code></span> Web Developer</div>
             </h1>
-              <p>I like working out, playing mobile games, watching Netflix</p>            
+              <p id="bio">I like working out, playing mobile games, watching Netflix</p>            
         </header>
-        <section>
+        <section id="quiz-project">
             <h2>Movie Quiz App</h2>
+            <p>It is a long established fact that a reader will be distracted 
+              by the readable content of a page when looking at its layout. 
+              The point of using Lorem Ipsum is that it has a more-or-less normal
+               distribution of letters, as opposed to using 'Content here, content
+                here', making it look like readable English. Many desktop publishing
+                 packages and web page editors now use Lorem Ipsum as their default 
+                 model text, and a search for 'lorem ipsum' will uncover many web 
+                 sites still in their infancy. Various versions have evolved over the
+                  years, sometimes by accident, sometimes on purpose (injected 
+                  humour and the like).</p>
         </section>
 
         <section>
-            Another project
+            <h2>Another project</h2>
+            <p>It is a long established fact that a reader will be distracted by 
+              the readable content of a page when looking at its layout. The point
+               of using Lorem Ipsum is that it has a more-or-less normal distribution
+                of letters, as opposed to using 'Content here, content here', making 
+                it look like readable English. Many desktop publishing packages and 
+                web page editors now use Lorem Ipsum as their default model text, and 
+                a search for 'lorem ipsum' will uncover many web sites still in their 
+                infancy. Various versions have evolved over the years, sometimes by 
+                accident, sometimes on purpose (injected humour and the like).</p>
         </section>
 
-        <section>
-            Another project
+        <section id="skills">
+          <h2>Skills</h2>
+            <i class="fab fa-html5 skill"></i><i class="fab fa-css3-alt skill"></i>
+            <i class="fab fa-js-square skill"></i><i class="fab fa-github-square skill"></i>
+            <i class="fab fa-git-square skill"></i>
         </section>
+
+        <section id="contactForm">
+          <h2>Contact</h2>
+          <p>It is a long established fact that a reader will be distracted by 
+            the readable content of a page when looking at its layout. The point
+             of using Lorem Ipsum is that it has a more-or-less normal distribution
+              of letters, as opposed to using 'Content here, content here', making 
+              it look like readable English. Many desktop publishing packages and 
+              web page editors now use Lorem Ipsum as their default model text, and 
+              a search for 'lorem ipsum' will uncover many web sites still in their 
+              infancy. Various versions have evolved over the years, sometimes by 
+              accident, sometimes on purpose (injected humour and the like).</p>
+      </section>
     </main>
-    <footer role="content-info">Made in San Francisco with <i class="fas fa-heart"></i> by MK</footer>
+    <footer role="content-info">Made in San Francisco with 
+      <i class="fas fa-heart"></i> by  <a href="https://www.linkedin.com/in/muhiddin-kurbonov/" 
+      target="_blank">Muhiddin</a></footer>
 </body>
 </html>

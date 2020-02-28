@@ -9,6 +9,7 @@ body {
   text-align: center;
   line-height: 1.5;
   background-color: #eee2dc;
+  letter-spacing: 0.7px;
 }
 h1 {
   font-family: 'Heebo';
@@ -24,10 +25,6 @@ footer {
   padding: 1% 0;
   /* background-color: #aaa; */
 }
-nav {
-  background-color: rgb(174, 186, 201);
-  border-radius: 0 10px 10px 0;
-}
 
 nav {
   float: left;
@@ -35,27 +32,74 @@ nav {
   margin: 10% 0;
   left: 0;
   padding: 20px;
-  width: 250px;
+  width: 220px;
+  background-color: rgb(174, 186, 201);
+  border-radius: 0 10px 10px 0;
 }
-a {
+
+@media screen and (max-width: 700px) {
+  nav {
+    display: none;
+  }
+  header {
+    margin-top: 10px;
+  }
+  main {
+    margin: 1%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  main {
+    margin-top: 150px;
+    padding: 2%;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }  
+  nav a {
+    float: left;
+    margin-right: 30px;
+  }
+  nav > a {
+    border-top: 1px dashed white;
+  }
+  header {
+    margin-top: 0;
+  }
+
+  footer {
+    margin: 0;
+  }
+}
+nav > a {
+  padding: 10px 0;
   display: block;
   text-decoration: none;
   color: white;
   border-bottom: 1px dashed white;
 }
 
-a:hover {
+nav > a:hover {
   color: black;
-  padding: 10px;
+  font-size: 1.2em;
 }
 
 header {
-  padding: 12% 0;
+  padding: 12% 0 3% 0;
 }
 
 section {
   min-height: 200px;
-  padding: 6% 0;
+  padding: 3% 0 6% 0;
+  border-top: 1px solid white;
   /*background-color: #bbb; */
 }
 /*
@@ -71,11 +115,29 @@ section:nth-child(even) {
 #profile-pic {
   border-radius: 50%;
 }
-i.fab {
+nav i.fab {
   font-size: 30px;
   margin-right: 20px;
   color: rgb(92, 16, 233);
 }
+nav i.fab:hover {
+  color: darkblue;
+  transform: rotate(45deg)
+}
 .social-icons {
   margin: 20px 0;
+}
+
+#fullstack {
+  color: coral;
+}
+
+#bio {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+.skill {
+  font-size: 70px;
+  margin-left: 30px;
+  color: rgb(255, 115, 0);
 }
