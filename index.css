@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #444;
+  text-align: center;
+  line-height: 1.5;
+  background-color: #eee2dc;
+}
+h1 {
+  font-family: 'Heebo';
+}
+main, footer {
+  margin: 0 20%;
+}
+p {
+  font-size: 1.4em;
+}
+nav,
+footer {
+  padding: 1% 0;
+  /* background-color: #aaa; */
+}
+nav {
+  background-color: rgb(174, 186, 201);
+  border-radius: 0 10px 10px 0;
+}
+
+nav {
+  float: left;
+  position: fixed;
+  margin: 10% 0;
+  left: 0;
+  padding: 20px;
+  width: 250px;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px dashed white;
+}
+
+a:hover {
+  color: black;
+  padding: 10px;
+}
+
+header {
+  padding: 12% 0;
+}
+
+section {
+  min-height: 200px;
+  padding: 6% 0;
+  /*background-color: #bbb; */
+}
+/*
+section:nth-child(even) {
+  background-color: #ddd;
+}
+*/
+.contact {
+  margin-top: 5px;
+  font-size: 0.7em;
+}
+
+#profile-pic {
+  border-radius: 50%;
+}
+i.fab {
+  font-size: 30px;
+  margin-right: 20px;
+  color: rgb(92, 16, 233);
+}
+.social-icons {
+  margin: 20px 0;
+}
