@@ -35,8 +35,9 @@ nav {
   left: 0;
   padding: 20px;
   width: 220px;
-  background-color: rgb(174, 186, 201);
+  background-color: rgb(38, 103, 182);
   border-radius: 0 10px 10px 0;
+  color: white;
 }
 
 @media screen and (max-width: 1100px) {
@@ -88,10 +89,9 @@ section:nth-child(even) {
 nav i.fab {
   font-size: 30px;
   margin-right: 20px;
-  color: rgb(92, 16, 233);
+  color: white;
 }
 nav i.fab:hover {
-  color: darkblue;
   transform: rotate(45deg)
 }
 .social-icons {
@@ -99,7 +99,7 @@ nav i.fab:hover {
 }
 
 #fullstack {
-  color: coral;
+  color: rgb(161, 46, 4);
 }
 
 #bio {
@@ -137,9 +137,20 @@ form {
 button {
   width: 30%;
   float: right;
+  background-color: rgb(38, 103, 182);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid rgb(38, 103, 182);
+  font-size: 1.3em;
+}
+button:hover {
+  background-color: rgb(18, 92, 184);
 }
 .star {
-  color: red;
+  font-size: 1.5em;
+  color: rgb(185, 4, 4);
 }
 #desc {
   font-size: 1em;
