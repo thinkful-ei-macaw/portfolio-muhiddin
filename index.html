@@ -28,37 +28,20 @@
         <header role="banner" id="header">
           <img src="./images/profile-pic.jpg" id="profile-pic" alt="Profile picture of me">
             <h1><div>Hi, I'm Muhiddin </div>
-              <div> <span id="fullstack"><code><</code>Full Stack<code>></code></span> Web Developer</div>
+              <div> A <span id="fullstack"><code><</code>Full Stack<code>></code></span> Web Developer</div>
             </h1>
               <p id="bio">I like working out, playing mobile games, watching Netflix</p>            
         </header>
         <section id="quiz-project">
-            <h2>Movie Quiz App</h2>
-            <p>It is a long established fact that a reader will be distracted 
-              by the readable content of a page when looking at its layout. 
-              The point of using Lorem Ipsum is that it has a more-or-less normal
-               distribution of letters, as opposed to using 'Content here, content
-                here', making it look like readable English. Many desktop publishing
-                 packages and web page editors now use Lorem Ipsum as their default 
-                 model text, and a search for 'lorem ipsum' will uncover many web 
-                 sites still in their infancy. Various versions have evolved over the
-                  years, sometimes by accident, sometimes on purpose (injected 
-                  humour and the like).</p>
+          <h2>Movie Quiz App</h2>
+          <img class="quiz-img" src="./images/quiz1.png">
+          <img class="quiz-img" src="./images/quiz2.png">
+          <div class="repo-live">
+            <a href="https://github.com/thinkful-ei-macaw/quiz-app-yousef-muhiddin" target="_blank">Repo</a>
+            | <a href="https://muhiddinsgithub.github.io/" target="_blank">Live</a>
+          </div>
+          <p id="desc">If you love movies, test your knowledge with this movie quiz app developed using HTML, CSS and jQuery.</p>
         </section>
-
-        <section>
-            <h2>Another project</h2>
-            <p>It is a long established fact that a reader will be distracted by 
-              the readable content of a page when looking at its layout. The point
-               of using Lorem Ipsum is that it has a more-or-less normal distribution
-                of letters, as opposed to using 'Content here, content here', making 
-                it look like readable English. Many desktop publishing packages and 
-                web page editors now use Lorem Ipsum as their default model text, and 
-                a search for 'lorem ipsum' will uncover many web sites still in their 
-                infancy. Various versions have evolved over the years, sometimes by 
-                accident, sometimes on purpose (injected humour and the like).</p>
-        </section>
-
         <section id="skills">
           <h2>Skills</h2>
             <i class="fab fa-html5 skill"></i><i class="fab fa-css3-alt skill"></i>
@@ -68,15 +51,17 @@
 
         <section id="contactForm">
           <h2>Contact</h2>
-          <p>It is a long established fact that a reader will be distracted by 
-            the readable content of a page when looking at its layout. The point
-             of using Lorem Ipsum is that it has a more-or-less normal distribution
-              of letters, as opposed to using 'Content here, content here', making 
-              it look like readable English. Many desktop publishing packages and 
-              web page editors now use Lorem Ipsum as their default model text, and 
-              a search for 'lorem ipsum' will uncover many web sites still in their 
-              infancy. Various versions have evolved over the years, sometimes by 
-              accident, sometimes on purpose (injected humour and the like).</p>
+          <form>
+            <label for="firstname">First name<span id="star">*</span></label>
+            <input type="text" placeholder="John" required>
+            <label for="lastname">Last name<span id="star">*</span></label>
+            <input type="text" placeholder="Doe" required>
+            <label for="email">E-mail<span id="star">*</span></label>
+            <input type="email" placeholder="example@gmail.com" required>
+            <label for="your-message">Message<span id="star">*</span></label>
+            <textarea id="your-message" rows="4" required></textarea>
+            <button type="submit" value="Submit">Submit</button>
+          </form>
       </section>
     </main>
     <footer role="content-info">Made in San Francisco with 
