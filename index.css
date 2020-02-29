@@ -138,7 +138,7 @@ button {
   width: 30%;
   float: right;
 }
-#star {
+.star {
   color: red;
 }
 #desc {
