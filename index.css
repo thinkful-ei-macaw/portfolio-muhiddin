@@ -100,12 +100,16 @@ nav i.fab:hover {
   font-size: 1.4em;
 }
 
-#skills li {
+li {
   list-style-type: square;
 }
 .skills-format {
   display: flex;
   justify-content: space-evenly;
+}
+.left,
+.right {
+  text-align: left;
 }
 .project-item {
   text-align: center;
