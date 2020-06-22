@@ -8,7 +8,7 @@ This is a mobile-friendly portfolio webpage built using HTML and CSS.
 
 ## Screenshot
 
-![Screenshot](https://github.com/thinkful-ei-macaw/portfolio-muhiddin/images/screenshot.png)
+![Screenshot](https://github.com/thinkful-ei-macaw/portfolio-muhiddin/blob/master/images/screenshot.png)
 
 ## Tech Stack
 
