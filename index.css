@@ -107,9 +107,9 @@ li {
   list-style-type: square;
 }
 .colorful {
-  color: rgb(186, 216, 76);
-  background-color: black;
-  width: max-content;
+  color: yellow;
+  background-color: rgb(16, 65, 65);
+  border-radius: 25px;
   padding: 5px 10px;
 }
 .skills-format {
